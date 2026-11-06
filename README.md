@@ -64,20 +64,20 @@ This commands includes
 
 10. Router Commands
 
-Reference commands:
+#Reference commands:
 
   
-  enable
+    enable
   
-  show ip interface brief
+    show ip interface brief
   
-  show ip route
+    show ip route
   
-  show version
+    show version
   
-  show processes cpu
+    show processes cpu
   
-  show interfaces
+    show interfaces
 
 ## Output
 <img width="931" height="953" alt="Screenshot 2026-11-05 090116" src="https://github.com/user-attachments/assets/e3631c15-9f16-4c2a-a7ee-88b6316c829a" />
