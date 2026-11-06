@@ -27,42 +27,58 @@ This commands includes
 <BR>
 ## Commands:
 1. Display Network Configuration
+  
   ipconfig /all
 
 2. Test IPv4 Connectivity
+
    ping -n 4 8.8.8.8
 
 3. Test IPv6 Connectivity
+
    ping -6 -n 4 2606:4700:4700::1111
 
 4. Trace the IPv6 Route
-   tracert -6 -d -h 12 -w 800 2606:4700:4700::1111
+
+    tracert -6 -d -h 12 -w 800 2606:4700:4700::1111
 
 5. Resolve a Domain Name
+
    nslookup example.com
 
 6. Display TCP and UDP Entries
+  
    netstat -ano
 
 7. Display the Routing Table
+  
    route print
 
 8. Display the ARP Table
+  
    arp -a
    
 9. Capture Ping and Traceroute Packets in Wireshark
-   icmpv6
+
+  icmpv6
 
 10. Router Commands
 
 Reference commands:
 
+  
   enable
+  
   show ip interface brief
+  
   show ip route
+  
   show version
+  
   show processes cpu
+  
   show interfaces
+
 ## Output
 <img width="931" height="953" alt="Screenshot 2026-11-05 090116" src="https://github.com/user-attachments/assets/e3631c15-9f16-4c2a-a7ee-88b6316c829a" />
 
